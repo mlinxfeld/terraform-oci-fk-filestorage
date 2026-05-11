@@ -60,7 +60,5 @@ resource "oci_file_storage_export" "this" {
 }
 
 data "oci_core_private_ip" "mount_target_primary" {
-  count = length(oci_file_storage_mount_target.this.private_ip_ids) > 0 ? 1 : 0
-
   private_ip_id = oci_file_storage_mount_target.this.private_ip_ids[0]
 }

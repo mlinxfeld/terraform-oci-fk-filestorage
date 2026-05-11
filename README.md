@@ -50,12 +50,24 @@ Each of those concerns belongs in its own dedicated module.
 
 ```bash
 terraform-oci-fk-filestorage/
+├── examples/
+│   ├── 01_single_filesystem_single_export/
+│   ├── 02_multiple_filesystems_multiple_exports/
+│   └── 03_multiple_instances_with_load_balancer_and_shared_filesystem/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
 ├── versions.tf
 └── README.md
 ```
+
+## Examples
+
+Runnable examples are available in [`examples/`](examples/):
+
+- `01_single_filesystem_single_export` for the smallest working private-subnet File Storage deployment
+- `02_multiple_filesystems_multiple_exports` for a multi-export layout with different client subnets and access policies
+- `03_multiple_instances_with_load_balancer_and_shared_filesystem` for a full architecture with multiple OCI instances mounting the same shared export behind a public load balancer
 
 ## Example Usage
 
