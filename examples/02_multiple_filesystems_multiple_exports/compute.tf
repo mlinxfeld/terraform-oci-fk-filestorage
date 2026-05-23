@@ -1,5 +1,5 @@
 module "app_client" {
-  source = "git::https://github.com/mlinxfeld/terraform-oci-fk-compute.git"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-compute.git"
 
   name             = "fk-fss-demo-02-app-client"
   tenancy_ocid     = var.tenancy_ocid
@@ -52,7 +52,7 @@ module "app_client" {
 }
 
 module "ops_client" {
-  source = "git::https://github.com/mlinxfeld/terraform-oci-fk-compute.git"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-compute.git"
 
   name             = "fk-fss-demo-02-ops-client"
   tenancy_ocid     = var.tenancy_ocid

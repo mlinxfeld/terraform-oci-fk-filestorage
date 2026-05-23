@@ -305,8 +305,8 @@ Reason:
 
 ## Related Modules & Training
 
-- [terraform-oci-fk-vcn](https://github.com/mlinxfeld/terraform-oci-fk-vcn)
-- [terraform-oci-fk-compute](https://github.com/mlinxfeld/terraform-oci-fk-compute)
+- [terraform-oci-fk-vcn](https://github.com/foggykitchen/terraform-oci-fk-vcn)
+- [terraform-oci-fk-compute](https://github.com/foggykitchen/terraform-oci-fk-compute)
 - [terraform-oci-fk-loadbalancer](https://github.com/mlinxfeld/terraform-oci-fk-loadbalancer)
 - [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)
 

@@ -1,6 +1,6 @@
 module "compute" {
   count  = var.instance_count
-  source = "git::https://github.com/mlinxfeld/terraform-oci-fk-compute.git"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-compute.git"
 
   name             = "fk-fss-shared-node-${count.index + 1}"
   tenancy_ocid     = var.tenancy_ocid
