@@ -66,7 +66,7 @@ All examples are runnable and demonstrate **incremental File Storage patterns**,
 
 ```hcl
 module "filestorage" {
-  source = "git::https://github.com/mlinxfeld/terraform-oci-fk-filestorage.git?ref=v0.1.0"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-filestorage.git?ref=v0.1.0"
 
   compartment_ocid    = var.compartment_ocid
   availability_domain = var.availability_domain
@@ -98,7 +98,7 @@ module "filestorage" {
 
 ```hcl
 module "filestorage" {
-  source = "git::https://github.com/mlinxfeld/terraform-oci-fk-filestorage.git?ref=v0.1.0"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-filestorage.git?ref=v0.1.0"
 
   compartment_ocid    = var.compartment_ocid
   availability_domain = var.availability_domain
